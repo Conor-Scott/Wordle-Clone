@@ -1,0 +1,105 @@
+.board {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background-color: black;
+}
+
+.correctPosition {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 64px;
+  background-color: #538d4e;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.wrongLetter {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 64px;
+  background-color: #3a3a3c;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.correctLetter {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 64px;
+  background-color: #b59f3b;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+    
+}
+
+
+.notFinal {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 64px;
+  color: white;
+  background-color: grey;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+
+.line {
+  display: flex;
+  gap: 10px;
+}
+
+p {
+  font-family: 'Dekko';
+  font-size: 48px;
+  text-align: center;
+  margin: 0px;
+  color: whitesmoke;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 64px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(16, 16, 16);
+  color: white;
+  padding-bottom: 40px;
+  padding-top: 40px;  
+}
+
+header {
+  margin: 0px;
+  background-color: rgb(16, 16, 16);
+  text-align: center;
+}
+
+body {
+  background-color: rgb(16, 16, 16);
+}
